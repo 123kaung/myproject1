@@ -1,0 +1,286 @@
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+IntelGraphicsProfiles
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{23649344-1060-11ed-8e2d-080027ec4824}.TM.blf
+NTUSER.DAT{23649344-1060-11ed-8e2d-080027ec4824}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{23649344-1060-11ed-8e2d-080027ec4824}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+NorthwindDB3.mdf
+NorthwindDB3_log.ldf
+OneDrive
+PhoneDB.mdf
+PhoneDB_log.ldf
+Pictures
+Postman
+PrintHood
+PycharmProjects
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+WPS\ Cloud\ Files
+eclipse
+eclipse-workspace
+freelance-hub-link
+internship-project
+kyawgyi.mdf
+kyawgyi_log.ldf
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source
+
+hp@DESKTOP-6JS74S2 MINGW64 ~
+$ ^C
+
+hp@DESKTOP-6JS74S2 MINGW64 ~
+$ cd Desktop
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop
+$ dir
+1.lnk
+Adobe\ Photoshop\ CS3\ Extended.lnk
+C\ sharpe\ wf.docx
+CRUD-Ajex
+Canva.lnk
+DjangoProject
+DjangoProject\ -\ Copy
+DjangoProject\ -\ Copy.rar
+DjangoProjectwithmentor.rar
+Documents\ -\ Shortcut.lnk
+Eclipse\ IDE\ for\ Java\ Developers\ -\ 2023-06.lnk
+Excel.lnk
+GitHub\ Desktop.lnk
+Github
+Immersive\ Control\ Panel.lnk
+Income_Expense_training
+Js-live
+LDMultiPlayer.lnk
+LDPlayer9.lnk
+Mavis-Beacon-Portable\ -\ Shortcut.lnk
+Mentor-1.0.0
+Messenger.lnk
+Microsoft\ Edge.lnk
+New\ folder
+New\ folder\ (2)
+New\ folder\ (3)
+OneDrive.lnk
+OneNote.lnk
+Outlook\ (2).lnk
+Outlook.lnk
+Postman.lnk
+PowerPoint.lnk
+Publisher.lnk
+RapidTyping\ 5.lnk
+Try\ it\ free\ for\ 7\ days.url
+Viber.lnk
+Visual\ Studio\ 2013.lnk
+Visual\ Studio\ Code.lnk
+WPS\ Office.lnk
+WPS\ PDF.lnk
+Whizzo\ Dictionary.lnk
+Word.lnk
+Zoom.lnk
+data\ mining\ ch-2
+desktop.ini
+dijango\ note
+function.txt
+git-example
+index.html
+internship
+m\ square\ programming.code-workspace
+manage.py
+my_Django
+mynote.txt
+mypj1
+mypj1\ -\ Copy
+new_project_django
+newfolder
+newproject
+psiphon3.exe
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop
+$ cd git-example
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example
+$ git init
+Initialized empty Git repository in C:/Users/hp/Desktop/git-example/.git/
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example (master)
+$ git init .
+Reinitialized existing Git repository in C:/Users/hp/Desktop/git-example/
+.git/
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example (master)
+$ git clone https://github.com/123kaung/myproject1.git
+Cloning into 'myproject1'...
+remote: Enumerating objects: 189, done.
+remote: Counting objects: 100% (189/189), done.
+remote: Compressing objects: 100% (145/145), done.
+remote: Total 189 (delta 33), reused 186 (delta 33), pack-reused 0 (from
+0)
+Receiving objects: 100% (189/189), 3.27 MiB | 4.55 MiB/s, done.
+Resolving deltas: 100% (33/33), done.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example (master)
+$ dir
+myproject1  note.txt
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example (master)
+$ cd^C
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example (master)
+$ cd myproject1
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ dir
+README.md  myproject
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ dir
+README.md  myproject  note.txt
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git commit -m "my first file"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        note.txt
+
+nothing added to commit but untracked files present (use "git add" to tra
+ck)
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git add .
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ ^C
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git commit -m "my first file"
+[main 1b1ac72] my first file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 note.txt
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 1 (delta 0), pack-reused 0 (from 0)
+To https://github.com/123kaung/myproject1.git
+   6c45f40..1b1ac72  main -> main
+branch 'main' set up to track 'origin/main'.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch kaungthant
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ dir
+README.md  myproject  note.txt
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch
+  kaungthant
+* main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch -d kaungthant
+Deleted branch kaungthant (was 1b1ac72).
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch kaungthant
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch
+  kaungthant
+* main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git checkout kaungthant
+Switched to branch 'kaungthant'
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git branch
+* kaungthant
+  main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch
+  kaungthant
+* main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git checkout
+Your branch is up to date with 'origin/main'.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git branch
+  kaungthant
+* main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git checkout kaungthant
+Switched to branch 'kaungthant'
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git branch
+* kaungthant
+  main
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git push -u origin kaungthant
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'kaungthant' on GitHub by visiting:
+remote:      https://github.com/123kaung/myproject1/pull/new/kaungthant
+remote:
+To https://github.com/123kaung/myproject1.git
+ * [new branch]      kaungthant -> kaungthant
+branch 'kaungthant' set up to track 'origin/kaungthant'.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git merge
+Already up to date.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (kaungthant)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git merge kaungthant
+Already up to date.
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$ git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+hp@DESKTOP-6JS74S2 MINGW64 ~/Desktop/git-example/myproject1 (main)
+$
